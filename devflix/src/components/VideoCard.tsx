@@ -108,6 +108,7 @@ export function VideoCard({ video, onEdit }: VideoCardProps) {
         onClose={() => setIsAlertOpen(false)} 
         onConfirm={() => deleteVideo(video.id)} 
         title={video.title} 
+        
       />
     </>
   );

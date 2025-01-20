@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from 'react';
-import { X, Maximize2, Minimize2, Volume2, VolumeX } from 'lucide-react';
+import { X, Maximize2, Minimize2, } from 'lucide-react';
 
 interface VideoPopupProps {
   isOpen: boolean;
